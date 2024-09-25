@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    tools:context=".mensajero">
+
+    <!-- Título de la pantalla -->
+    <TextView
+        android:id="@+id/titulo_mensajes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mensajes"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:textColor="@android:color/white" />
+
+    <!-- Barra de búsqueda -->
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:queryHint="Buscar" />
+
+    <!-- Lista de conversaciones -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_conversaciones"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:clipToPadding="false" />
+
+</LinearLayout>

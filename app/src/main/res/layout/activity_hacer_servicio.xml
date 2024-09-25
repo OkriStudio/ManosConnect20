@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_color"
+    tools:context=".HacerServicioActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subir Servicio"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/nombre_servicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del servicio"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/precio_servicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio del servicio"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/detalles_servicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Detalles"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:gravity="top|start"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/direccion_servicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dirección"
+        android:padding="12dp"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/boton_subir_servicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subir servicio"
+        android:padding="12dp"/>
+
+</LinearLayout>

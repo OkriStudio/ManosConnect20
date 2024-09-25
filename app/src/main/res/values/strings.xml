@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ManosConnect</string>
+    <string name="app_name_usuario">Perfil</string>
+    <string name="login_button">Iniciar sesion</string>
+    <string name="register_button">Registrar</string>
+    <string name="email_hint">Introduce tu correo electrónico</string>
+    <string name="password_hint">Introduce tu contraseña</string>
+    <string name="email_hint_register">Introduce tu nombre completo</string>
+    <string name="email_hint_register_confirmar">Confirma tu correo electrónico</string>
+    <string name="password_hint_register">Introduce tu contraseña</string>
+    <string name="confirm_password_hint">Confirma tu contraseña</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

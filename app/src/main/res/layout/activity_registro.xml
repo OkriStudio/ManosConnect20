@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextFullName"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:hint="@string/email_hint_register" />
+
+        <EditText
+            android:id="@+id/editTextEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:hint="@string/email_hint_register_confirmar"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:hint="@string/password_hint_register"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editTextConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:hint="@string/confirm_password_hint"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="268dp"
+        android:layout_height="244dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="165dp"
+            android:layout_height="52dp"
+            android:text="@string/register_button"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</LinearLayout>
